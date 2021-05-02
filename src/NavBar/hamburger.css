@@ -1,0 +1,16 @@
+.Hamburger {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1vw;
+  cursor: pointer;
+  background: lime;
+  position: absolute;
+  color: white;
+  right: 5%;
+}
+
+@media (min-width: 990px) {
+  .Hamburger {
+    display: none;
+  }
+}

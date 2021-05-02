@@ -1,0 +1,23 @@
+.mydiv {
+  width: 100vw;
+  height: 50vw;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 0vw;
+}
+h1 {
+  padding-right: 30vw;
+}
+#purple {
+  background: purple;
+}
+
+#gold {
+  background: gold;
+}
+
+#lime {
+  background: lime;
+}

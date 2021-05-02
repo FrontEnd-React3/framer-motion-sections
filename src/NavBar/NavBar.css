@@ -1,0 +1,83 @@
+/* tegenstrijdigheid op lijn 72 */
+
+.NavBar {
+  display: flex;
+  align-items: center;
+  background: #181818;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  opacity: 0.9;
+}
+nav ul li {
+  display: inline-block;
+  margin: 1.5vw;
+}
+
+nav ul {
+  list-style: none;
+  width: 85%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  border-bottom: 5px solid #8c1cd1;
+}
+
+body {
+  background: gray;
+}
+
+@media (max-width: 991px) {
+  nav ul {
+    width: 0%;
+  }
+}
+
+@media (max-width: 990px) {
+  nav ul li {
+    display: block;
+    text-align: right;
+  }
+
+
+  .MobileNavigation {
+    color: white;
+  }
+
+  nav ul {    margin-left: 0vw;
+    list-style: none;
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: red;
+    padding: 0% 10% 10% 0%;
+    transition: margin-left 3s;
+    height: 60vh;
+    margin-top: 0px;
+    /* margin-left: -70vw; */
+    position: absolute;
+    top: 0vh;
+  }
+  .weg {
+    margin-left: 0vw;
+    display: initial
+  }
+  .open {
+    margin-left: -70vw;
+    
+  }
+  .Hamburger {
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+  }
+}
